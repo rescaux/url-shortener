@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91a42d89-3373-47e7-bc85-5c1b113b10a0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1hXWWjV2SsNplJgzyap6pPij7fA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.58" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.splitter.proportion" value="0.29327902" />
+    <property name="ts.external.directory.path" value="C:\Users\daniel.riegler\WebstormProjects\url-shortener\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.watch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91a42d89-3373-47e7-bc85-5c1b113b10a0" name="Default Changelist" comment="" />
+      <created>1600157950581</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600157950581</updated>
+      <workItem from="1600157951608" duration="6939000" />
+      <workItem from="1600167152542" duration="9000" />
+      <workItem from="1600169255056" duration="4781000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="704" y="291" key="#ESLint" timestamp="1600167140434">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="704" y="291" key="#ESLint/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600167140434" />
+    <state x="723" y="369" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600158101505">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="723" y="369" key="#com.intellij.fileTypes.FileTypeChooser/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600158101505" />
+    <state x="714" y="445" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1600175711888">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="714" y="445" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600175711888" />
+    <state width="1877" height="232" key="GridCell.Tab.0.bottom" timestamp="1600178082041">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="232" key="GridCell.Tab.0.bottom/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600178082041" />
+    <state width="1877" height="232" key="GridCell.Tab.0.center" timestamp="1600178082041">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="232" key="GridCell.Tab.0.center/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600178082041" />
+    <state width="1877" height="232" key="GridCell.Tab.0.left" timestamp="1600178082041">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="232" key="GridCell.Tab.0.left/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600178082041" />
+    <state width="1877" height="232" key="GridCell.Tab.0.right" timestamp="1600178082041">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="232" key="GridCell.Tab.0.right/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600178082041" />
+    <state x="461" y="224" key="SettingsEditor" timestamp="1600176975005">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="461" y="224" key="SettingsEditor/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600176975005" />
+  </component>
+</project>
