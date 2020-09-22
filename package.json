@@ -18,6 +18,10 @@
   "author": "Riegler Daniel",
   "license": "MIT",
   "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.8",
+    "@types/express-formidable": "^1.0.4",
+    "@types/express-session": "^1.17.0",
     "@types/node": "^13.11.1",
     "@types/winston": "^2.4.4",
     "eslint": "^7.9.0",
@@ -26,7 +30,12 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
+    "admin-bro": "^3.2.5",
+    "body-parser": "^1.19.0",
     "envalid": "^6.0.2",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.1",
     "winston": "^3.3.3",
     "winston-daily-rotate-file": "^4.5.0"
   }

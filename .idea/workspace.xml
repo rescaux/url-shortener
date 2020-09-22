@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,22 +23,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91a42d89-3373-47e7-bc85-5c1b113b10a0" name="Default Changelist" comment="Changed copyright header and reimplemented parsing of process environment (.env)">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/env.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/MIT_License.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/MIT_License.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/admin-bro-expressjs.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/env.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/env.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/StringUtil.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -71,6 +77,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.11.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.11.0" />
+    <property name="jdk.selected.JAVA_MODULE" value="15" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -84,22 +91,26 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="settings.editor.splitter.proportion" value="0.29327902" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="ts.external.directory.path" value="C:\Users\daniel.riegler\Downloads\IdeaProjects\url-shortener\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\daniel.riegler\Downloads\IdeaProjects\url-shortener\src\util" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,8 +149,17 @@
       <workItem from="1600262149236" duration="76000" />
       <workItem from="1600262228939" duration="22000" />
       <workItem from="1600766994311" duration="234000" />
-      <workItem from="1600767251902" duration="2549000" />
+      <workItem from="1600767251902" duration="5995000" />
+      <workItem from="1600776756928" duration="8378000" />
     </task>
+    <task id="LOCAL-00001" summary="Changed copyright header and reimplemented parsing of process environment (.env)">
+      <created>1600769828028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600769828028</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +175,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed copyright header and reimplemented parsing of process environment (.env)" />
@@ -169,10 +190,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="723" y="369" key="#com.intellij.fileTypes.FileTypeChooser/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600158101505" />
-    <state x="714" y="445" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1600767312001">
+    <state x="714" y="445" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1600769864904">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="714" y="445" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600767312001" />
+    <state x="714" y="445" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600769864904" />
     <state x="534" y="146" key="CommitChangelistDialog2" timestamp="1600769792508">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -193,10 +214,14 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1877" height="321" key="GridCell.Tab.0.right/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600769674874" />
-    <state x="461" y="224" key="SettingsEditor" timestamp="1600769179965">
+    <state x="741" y="240" key="SettingsEditor" timestamp="1600784089314">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="461" y="224" key="SettingsEditor/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600769179965" />
+    <state x="741" y="240" key="SettingsEditor/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600784089314" />
+    <state x="552" y="312" key="Vcs.Push.Dialog.v2" timestamp="1600769831030">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="552" y="312" key="Vcs.Push.Dialog.v2/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600769831030" />
     <state x="739" y="424" key="cloudConfig.PluginsDialog" timestamp="1600262249598">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -209,5 +234,9 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="777" y="493" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600769459294" />
+    <state x="329" y="215" key="new project wizard" timestamp="1600778828022">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="329" y="215" key="new project wizard/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600778828022" />
   </component>
 </project>

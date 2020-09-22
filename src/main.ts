@@ -29,12 +29,20 @@
  * SOFTWARE.
  */
 import env from './env';
+
 import {createLogger, format, Logger, transports} from 'winston';
-import * as DailyRotateFile from 'winston-daily-rotate-file';
+import DailyRotateFile from 'winston-daily-rotate-file';
+
+import AdminBro from 'admin-bro';
+import {json, urlencoded} from 'body-parser';
+import e, {Express, Router} from 'express';
+import {buildAuthenticatedRouter} from './util/admin-bro-expressjs';
 
 const logFormat = format.combine(
   format.colorize(),
-  format.printf(info => `[${info.timestamp} ${info.level}] ${info.message}`)
+  format.printf(
+    info => `[${info.timestamp} ${info.level}] ${JSON.stringify(info.message)}`
+  )
 );
 
 // initialize logger
@@ -63,3 +71,42 @@ if (!env.LOG_FILE_DISABLE) {
     })
   );
 }
+
+const express: Express = e();
+
+const admin: AdminBro = new AdminBro({
+  rootPath: env.AP_PATH,
+  branding: {
+    softwareBrothers: false,
+    companyName: env.AP_NAME,
+    logo: env.AP_LOGO, // todo add favicon
+  },
+});
+
+express.use(
+  admin.options.rootPath,
+  buildAuthenticatedRouter(
+    admin,
+    undefined,
+    Router(),
+    {
+      name: env.SESSION_NAME,
+      secret: env.SESSION_SECRET,
+      cookie: {
+        domain: env.SESSION_COOKIE_DOMAIN,
+        secure: env.SESSION_COOKIE_SECURE,
+      },
+    },
+    {}
+  )
+);
+express.use(json());
+express.use(urlencoded());
+
+express.listen(env.WEB_PORT, env.WEB_HOSTNAME, () =>
+  log.info(
+    `Admin panel online at ${
+      env.WEB_HOSTNAME.includes('0.0.0.0') ? '*' : env.WEB_HOSTNAME
+    }:${env.WEB_PORT}${env.AP_PATH}`
+  )
+);

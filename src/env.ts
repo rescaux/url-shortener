@@ -28,7 +28,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-import {bool, cleanEnv, str} from 'envalid';
+import {bool, cleanEnv, host, port, str, url} from 'envalid';
 
 export default cleanEnv(process.env, {
   DATE_FORMAT: str({
@@ -42,9 +42,58 @@ export default cleanEnv(process.env, {
     desc: 'Format used to show timestamps',
     docs: 'https://en.wikipedia.org/wiki/ISO_8601',
   }),
+  WEB_HOSTNAME: host({
+    default: 'localhost',
+    desc: 'Hostname for the webserver to listen on',
+  }),
+  WEB_PORT: port({
+    default: 1312,
+    desc: 'Port for the webserver to listen on',
+  }),
+  AP_PATH: str({
+    default: '/admin',
+    desc: 'Path on which the admin panel is exposed',
+  }),
+  AP_LOGO: url({
+    default: 'https://abload.de/img/191114_med_ess_cube_c41kq9.png',
+    desc: 'Branding logo to show on the admin panel',
+  }),
+  AP_NAME: str({
+    default: 'url-shortener',
+    desc: 'Branding name to show on the admin panel (title)',
+  }),
+  SESSION_NAME: str({
+    default: 'usession',
+    desc: 'Name of the HTTP(S) session',
+  }),
+  SESSION_SECRET: str({
+    devDefault: 'ChangeToASafeSecret',
+    example: '~8\\3**6yD#=SgEB@iB5-b#n#He~',
+    desc: 'Random session cookie secret key',
+  }),
+  SESSION_COOKIE_DOMAIN: host({
+    devDefault: 'localhost',
+    example: 'go.essteyr.com',
+    desc: 'Session cookie domain (should be same as the app.)',
+  }),
+  SESSION_COOKIE_SECURE: bool({
+    default: false,
+    desc:
+      'Encrypt session cookie (only enable if app. too is running an encrypted connection (SSL cert.))',
+  }),
   LOG_LEVEL: str({
     default: 'warning',
     devDefault: 'debug',
+    choices: [
+      'emerg',
+      'alert',
+      'crit',
+      'error',
+      'warning',
+      'notice',
+      'info',
+      'debug',
+    ],
     desc: 'Severity level of command-line log output',
     docs: 'https://github.com/winstonjs/winston#logging-levels',
   }),
