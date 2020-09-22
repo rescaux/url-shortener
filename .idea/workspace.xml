@@ -1,11 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a42d89-3373-47e7-bc85-5c1b113b10a0" name="Default Changelist" comment="" />
+    <list default="true" id="91a42d89-3373-47e7-bc85-5c1b113b10a0" name="Default Changelist" comment="Changed copyright header and reimplemented parsing of process environment (.env)">
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/env.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/MIT_License.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/MIT_License.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/StringUtil.ts" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Riegler Daniel &lt;daniel.riegler@essteyr.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -13,17 +52,27 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="JupyterTrust" id="c79e9ad7-ab75-4f6f-ac7d-984aaf520553" />
   <component name="ProjectId" id="1hXWWjV2SsNplJgzyap6pPij7fA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.12.58" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.11.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.11.0" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -34,12 +83,27 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
     <property name="settings.editor.splitter.proportion" value="0.29327902" />
-    <property name="ts.external.directory.path" value="C:\Users\daniel.riegler\WebstormProjects\url-shortener\node_modules\typescript\lib" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="ts.external.directory.path" value="C:\Users\daniel.riegler\Downloads\IdeaProjects\url-shortener\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -71,11 +135,30 @@
       <workItem from="1600157951608" duration="6939000" />
       <workItem from="1600167152542" duration="9000" />
       <workItem from="1600169255056" duration="4781000" />
+      <workItem from="1600262149236" duration="76000" />
+      <workItem from="1600262228939" duration="22000" />
+      <workItem from="1600766994311" duration="234000" />
+      <workItem from="1600767251902" duration="2549000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed copyright header and reimplemented parsing of process environment (.env)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed copyright header and reimplemented parsing of process environment (.env)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="704" y="291" key="#ESLint" timestamp="1600167140434">
@@ -86,29 +169,45 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="723" y="369" key="#com.intellij.fileTypes.FileTypeChooser/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600158101505" />
-    <state x="714" y="445" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1600175711888">
+    <state x="714" y="445" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1600767312001">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="714" y="445" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600175711888" />
-    <state width="1877" height="232" key="GridCell.Tab.0.bottom" timestamp="1600178082041">
+    <state x="714" y="445" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600767312001" />
+    <state x="534" y="146" key="CommitChangelistDialog2" timestamp="1600769792508">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.bottom/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600178082041" />
-    <state width="1877" height="232" key="GridCell.Tab.0.center" timestamp="1600178082041">
+    <state x="534" y="146" key="CommitChangelistDialog2/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600769792508" />
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1600769674874">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.center/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600178082041" />
-    <state width="1877" height="232" key="GridCell.Tab.0.left" timestamp="1600178082041">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600769674874" />
+    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1600769674874">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.left/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600178082041" />
-    <state width="1877" height="232" key="GridCell.Tab.0.right" timestamp="1600178082041">
+    <state width="1877" height="321" key="GridCell.Tab.0.center/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600769674874" />
+    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1600769674874">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.right/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600178082041" />
-    <state x="461" y="224" key="SettingsEditor" timestamp="1600176975005">
+    <state width="1877" height="321" key="GridCell.Tab.0.left/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600769674874" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1600769674874">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="461" y="224" key="SettingsEditor/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600176975005" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600769674874" />
+    <state x="461" y="224" key="SettingsEditor" timestamp="1600769179965">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="461" y="224" key="SettingsEditor/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600769179965" />
+    <state x="739" y="424" key="cloudConfig.PluginsDialog" timestamp="1600262249598">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="739" y="424" key="cloudConfig.PluginsDialog/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600262249598" />
+    <state x="832" y="424" width="723" height="657" key="cloudConfig.SelfSettingsDialog" timestamp="1600262223022">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="832" y="424" width="723" height="657" key="cloudConfig.SelfSettingsDialog/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600262223022" />
+    <state x="777" y="493" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600769459294">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="777" y="493" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-7.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600769459294" />
   </component>
 </project>
